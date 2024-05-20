@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+* {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.kenzieflix {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    height: 100vh;
+    width: 100wh;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    margin-left: 25vw;
+    margin-right: 20vw;
+    margin-bottom: 50px;
+  }
+
+li {
+    color: grey;
+    text-align: center;
+    padding: 10px;
+   
+}
+
+li > img {
+    height: 150px;
+    width: 150px;
+    color: grey;
+    border-radius:15px;
+    margin-block: 20px;
+}
+
+button {
+    color: white;
+    display: block;
+    border: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: small;
+    height: 30px;
+    width: 150px;
+    border-radius:5px;
+}
+
+li > img:hover {
+    border: 2px solid white;
+}
+
+li:hover {
+    color: white;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
